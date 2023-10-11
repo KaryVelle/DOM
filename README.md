@@ -1,4 +1,10 @@
 # DOM
+## Practica 1 Parcial 3
 Vellenaweth Moreno Karina
-Practica 1 Parcial 3
+# Links
+https://karyvelle.github.io/DOM/
+
+https://github.com/KaryVelle/DOM/blob/main/js/practica.js
+
+
 
