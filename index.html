@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link id="theme" href="css/style.css" rel="stylesheet" />
 </head>
 <body>
     <h1 id="nombre"></h1>
@@ -21,8 +22,68 @@
     <h2 id="headerDatosDeContacto">|</h2>
 
     <p id="datosDeContacto"></p>
-    
 
-    <script src="js/practica.js"></script>
+    <h1>Eventos del Dom!</h1>
+
+    <section>
+        <p>Elige un tema para el documento:</p>
+        <form>
+          <input name="theme" id="radio-light" type="radio" data-theme="css/light.css" data-name="Claro" checked />
+          <label for="radio-light">Tema claro</label>
+          <br />
+          <input name="theme" id="radio-sky" type="radio" data-theme="css/sky.css" data-name="Cielo" />
+          <label for="radio-sky">Tema cielo</label>
+          <br />
+          <input name="theme" id="radio-sun" type="radio" data-theme="css/sun.css" data-name="Soleado" />
+          <label for="radio-sun">Tema soleado</label>
+          <br />
+        </form>
+      
+    </section>
+   
+  <section>
+    <p>Elige una alineación para el texto:</p>
+    <form>
+      <input name="alignment" id="radio-left" type="radio" data-alignment="left" data-name="Izquierda" />
+      <label for="radio-left">Alineación izquierda</label>
+      <br />
+      <input name="alignment" id="radio-center" type="radio" data-alignment="center" data-name="Centro" />
+      <label for="radio-center">Alineación centrada</label>
+      <br />
+      <input name="alignment" id="radio-right" type="radio" data-alignment="right" data-name="Derecha" />
+      <label for="radio-right">Alineación derecha</label>
+      <br />
+    </form>
+    
+    <div id="content">
+      <p>Texto que se alinea</p>
+    </div>
+  </section>
+
+
+  <section>
+    <p>Elige una fuente para el texto:</p>
+    <form>
+      <input name="font" id="radio-arial" type="radio" data-font="Arial, sans-serif" data-name="Arial" />
+      <label for="radio-arial">Arial</label>
+      <br />
+      <input name="font" id="radio-times" type="radio" data-font="Times New Roman, serif" data-name="Times New Roman" />
+      <label for="radio-times">Times New Roman</label>
+      <br />
+      <input name="font" id="radio-verdana" type="radio" data-font="Verdana, sans-serif" data-name="Verdana" />
+      <label for="radio-verdana">Verdana</label>
+      <br />
+    </form>
+    
+    <div id="content">
+      <p>Fuente</p>
+    </div>
+  </section>
+
+ 
+
+  
+    <script src="js/practica.js" type="module"></script>
+   
 </body>
 </html>

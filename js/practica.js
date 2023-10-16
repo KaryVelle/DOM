@@ -1,3 +1,5 @@
+import { alignTheme, fontText, networkStatus, themes } from "./practica2.js";
+
 /*Crea un documento HTML con etiquetas vacias en el body y carga dinámicamente con JavaScript tu información personal:
 Tu nombre en una etiqueta h1.
 Tu foto en una etiqueta img (foto real, no memé, no avatar, no imagen random).
@@ -93,6 +95,12 @@ Tu información de contacto (correo, redes, sitios, etc.) en una etiqueta ul.*/
     $datosDeContacto.style.padding = "3rem";
     $datosDeContacto.style.margin = "5rem";
     $datosDeContacto.style.backgroundColor = "#FF8C78";
+
+    themes();
+    networkStatus();
+    alignTheme();
+    fontText();
+  
 
 
     
